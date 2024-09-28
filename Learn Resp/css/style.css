@@ -1,0 +1,27 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.vertical-nav {
+    list-style-type: none;  /* Remove bullets */
+    display: flex;          /* Align items horizontally */
+  }
+  
+  .vertical-nav li {
+
+    margin-top: 20px;
+    margin-right: 115px;      /* Add some spacing between items */
+  }
+  
+  .vertical-nav li:last-child {
+    margin-right: 0;         /* Remove right margin for the last item */
+  }
+  
+  .vertical-nav a {
+    text-decoration: none;
+    color: #a30b0b;
+    padding: 10px;
+
+  }
+  

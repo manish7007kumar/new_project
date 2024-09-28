@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h2>
+        This is HTML form
+    </h2>
+    <form action="backend.php">
+        <div>
+            
+            <label for="name">Name: <input type="text" name="myName" id="name"></label>
+        </div>
+        <br>
+    <div>
+        <label for="rol">Role:  <input type="text" name="myRole" id="rol">
+        </label>
+    </div>
+    <br>
+    <div>
+      <label for="mail">Email: <input type="email" name="myEmail" id="mail"></label>
+    </div>
+    <br>
+    <div>
+        <label for="dat">Date: <input type="date" name="myDate" id="dat"></label>
+    </div>
+    <br>
+    <div>
+       <label for="bon"> Bonus: <input type="number" name="myBonus" id="bon"> </label>
+    </div>
+    <br>
+    <div>
+        <label for="eligible">Are you eligible? <input type="checkbox" name="myeligibility" id="eligible"></label>
+    </div>
+    <br>
+    <div>
+       <label for="mal"> Male: <input type="radio" name="myGender" id="mal"></label>
+       <label for="fem"> Female: <input type="radio" name="myGender" id="fem"></label>
+    </div>
+    <br>
+    <div>
+       <label for="tex"> Write about yourself:<br> <textarea name="myTextarea"  cols="20" rows="10" id="tex"></textarea></label>
+    </div>
+    <div>
+        <label for="car">Car: </label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swif">Swift</option>
+                <option value="Bol" selected>Bolero</option>
+            </select>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit Now">
+        <input type="reset" value="Reset-Now">
+    </div>
+    </form>
+</body>
+</html>
