@@ -446,12 +446,12 @@ background-color: #ff5a60;
     margin-left: 59px;
 }
 .get-started:hover{
-    background-color: #ffffff5f;
+    background-color: #fff;
     color: #00bcd5;
 }
 .content-box-section{
     width: 100%;
-    height: 1200px;
+    height: 1100px;
     /* height: 200px; */
     padding-top: 24px;
     background-color: #72727d16;
@@ -582,4 +582,26 @@ background-color: #ff5a60;
     margin: auto;
     margin-top: 100px;
     background-color: #fff;
+}
+.download-section{
+    width: 100%;
+    height: 90px;
+    background-color: #72727d2f;
+}
+.download-content{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top: 25px;
+    gap: 15px;
+}
+.download-text{
+    font-size: 16px;
+    color: #ff5a60;
+    font-weight: 500;
+    font-size: 30px;
+}
+.dlimg a img{
+    width: 104px;
+    height: 30px;
 }
